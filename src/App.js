@@ -228,13 +228,13 @@ function App() {
 
       {/* DOWNLOAD */}
       <section className="download" id="download">
-        <div className="container">
+        <div className="container" >
           <h2 className="section-title">Get Curiosity Today</h2>
           <p style={{ fontSize: "1.2rem", opacity: 0.9, marginBottom: "2rem" }}>
             Join thousands of students already using Curiosity.
           </p>
           <div className="download-buttons">
-            <a href=" " className="store-btn">
+            <a href="https://play.google.com/store/apps/details?id=com.schrodingerlab.curiosity" className="store-btn">
               <i className="fa-brands fa-google-play" style={{ color: "#fff", fontSize: "1.5rem" }}></i>
               <div>Google Play</div>
             </a>
@@ -258,12 +258,12 @@ function App() {
               <h4>Quick Links</h4>
               <a href="#features">Features</a><br/>
               <a href="#download">Download</a><br/>
-              <a href=" ">Privacy Policy</a>
+              <a href="https://sites.google.com/view/curiosity-privacy-policy/home">Privacy Policy</a>
             </div>
             <div className="footer-section">
               <h4>Support</h4>
              <a href=" ">Help Center</a><br/>
-            <a href=" ">Contact Us</a><br/>
+            <a href="mailto:schrodingerlab1@gmail.com">Contact Us</a><br/>
             <a href=" ">Feedback</a>
             </div>
             <div className="footer-section">

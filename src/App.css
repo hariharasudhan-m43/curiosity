@@ -7,6 +7,9 @@
             margin: 0 auto;
             padding: 0 20px;
         }
+        .download {
+  min-height: auto; 
+}
 
         /* Header */
         header {
@@ -199,13 +202,14 @@
 }
 
 
-section {
+/* section {
     padding: 100px 0;
-}
-.hero {
-    padding-top: 80px; /* prevents header overlap */
+} */
+/* .hero {
+    padding-top: 80px; /* prevents header overlap 
     padding-bottom: 80px;
-}
+} */
+
 .features, .stats, .download, footer {
     text-align: center;
 }
@@ -251,7 +255,7 @@ section {
 /* Make sure hero area on page 2 has enough bottom space */
 .hero {
     min-height: 100vh; /* keeps full height */
-    padding-bottom: 150px; /* ensures next section starts lower */
+    padding: 80px 0; /* ensures next section starts lower */
     position: relative;
     z-index: 1;
 }
@@ -528,7 +532,7 @@ section {
             text-align: center;
             background: rgba(15, 15, 35, 0.8);
         }
-
+        
         .download-buttons {
             display: flex;
             justify-content: center;
